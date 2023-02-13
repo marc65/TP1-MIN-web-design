@@ -1,0 +1,165 @@
+/*
+
+MIN - Exercice 2 - TP1
+12/02/2023
+*/
+
+body /*Propriétés pour le body (Toute la page affichée)*/ 
+{ 
+	width          	 	: 900px;            /* La largeur de l'élément en pixels */
+	margin          	: auto;             /* La marge de l'élément réglée automatiquement*/
+	padding         	: 1px;              /*écart de remplissage sur les cotés en pixels*/
+	margin-top      	: 0px;              /*La marge de bas de l'élement en pixels*/
+	margin-bottom   	: 10px;             /*La marge du haut de l'élement en pixels*/
+}
+#cryptographie img /*Propriétés de l'image du logo epf (définie par un id)*/
+{
+    width               : 100%;              /* La largeur de l'élément en pourcentage (par rapport au body)*/
+    height              : auto;             /*La hauteur de l'élément réglée automatiquement*/
+    float               : left;
+}
+.menu 
+{
+    display: flex;
+    float: left;
+  }
+
+#image-menu /*Propriétés pour l'image definie avec un identifiant */
+{
+     float              : left;             /*Place l'élement sur le côté gauche de la page*/
+}
+
+#tmenu /*Propriétés pour le tableau du menu (défini par un identifiant)*/
+{
+    height              : 38px;             /*La hauteur de l'élement en pixels (la même que celle des images)*/
+    border-collapse     : collapse;         /*Fait fusionner les bordures du tableau*/
+    text-align			: center;           /*Le texte est centré dans les celulles*/
+    font-size			: 11px;             /*La taille de la police est de 11 pixels*/
+    font-family         : "Arial";          /*On définit la police de caractère*/
+    color               : rgb(255, 0, 0);            /*La couleur de la police est blanche*/   
+}
+
+tr, td /*Propriétés des lignes et colonnes des tableaux (ici on en a un seul, celui du menu)*/
+{
+    text-align: center;
+    font-family: Arial;
+    font-size: 15px;
+    color: white;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding: 0x;
+    height: 38px;
+    margin: 5px;
+    font-weight: bold;
+}
+table
+{        
+    width: 200px;
+    height: 280px;
+    background-image: url(menu.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-collapse: collapse;
+
+}
+
+.t-text /*Propriétés des cellules de textes dans le tableau du menu (définies par des classes)*/
+{
+    padding-right       : 1px;             /*écart de remplissage sur la droite de l'élément en pixels*/
+    padding-left        : 1px;             /*écart de remplissage sur la gauche de l'élément en pixels*/
+    color: #000; /* ajustement de la couleur de police */
+
+}
+
+.right-div {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+.p-contenu
+{
+    float               : left;             /*Place l'élement sur le côté gauche de la page*/
+    width               : 600px;            /* La largeur de l'élément en pixels */
+    padding-left        : 14px;             /*La marge de gauche en pixels*/     
+    font-size		    : 13.5px;           /*La taille de la police est de 11 pixels*/
+    font-family         : "Arial";          /*On définit la police de caractère*/
+   padding-bottom: 50px;
+    border-width: 1px; 
+    border-style: solid; 
+    border-color: grey;
+    
+  }
+
+  .titre-menu /*Propriétés pour les titres des paragraphes (définies par une classe)*/
+{
+    font-size			: 12px;             /*La taille de la police en pixels*/
+    margin-bottom       : 0px;              /*La marge inférieur en pixels*/
+    height              : 12px;             /*La hauteur de l'élément en pixels*/
+    color               : grey;         /*La couleur de la police est cyan foncé*/
+}
+.s-contenu
+{
+    float               : left;             /*Place l'élement sur le côté gauche de la page*/
+    width               : 265px;            /* La largeur de l'élément en pixels */
+    padding-left        : 14px;             /*La marge de gauche en pixels*/     
+    font-size		    : 13.5px;           /*La taille de la police est de 11 pixels*/
+    font-family         : "Arial";          /*On définit la police de caractère*/
+  }
+
+  .titre1 /*Propriétés pour les titres des paragraphes (définies par une classe)*/
+{
+    font-size			: 20px;             /*La taille de la police en pixels*/
+    margin-bottom       : 0px;              /*La marge inférieur en pixels*/
+    height              : 12px;             /*La hauteur de l'élément en pixels*/
+    color               : rgb(8, 189, 234);         /*La couleur de la police est cyan foncé*/
+    font-weight: bold;
+    text-decoration: underline
+}
+.titre2 /*Propriétés pour les titres des paragraphes (définies par une classe)*/
+{
+    font-size			: 15px;             /*La taille de la police en pixels*/
+    margin-bottom       : 0px;              /*La marge inférieur en pixels*/
+    height              : 12px;             /*La hauteur de l'élément en pixels*/
+    color               : rgb(8, 189, 234);         /*La couleur de la police est cyan foncé*/
+    text-decoration: underline;
+    margin-top: 30px;
+    
+}
+.txt-pdp
+{
+    background-image: url(pied_de_page.png);
+    background-size: cover;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 580px;
+    width               : 100%;            /* La largeur de l'élément en pixels */
+    font-size		    : 13.5px;           /*La taille de la police est de 11 pixels*/
+    font-family         : "Arial";          /*On définit la police de caractère*/
+    color               : white;         /*La couleur de la police est cyan foncé*/
+    font-weight: bold;
+    text-align: center;
+
+}
+
+#image-pdp{
+    width              : 100%;             /*La hauteur de l'élement en pixels (la même que celle des images)*/
+    background-image    : url("pied_de_page.png");  /*Le fond est une image*/
+    background-size: cover;
+    background-repeat   : no-repeat;        /*L'image de fond ne se répète pas*/
+    float              : left;             /*Place l'élement sur le côté gauche de la page*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.background-image {
+    background-image: url(pied_de_page.png);
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

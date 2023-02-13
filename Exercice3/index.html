@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--
+
+MIN - Exercice 2 - TP1
+12/02/2023
+-->
+<html>
+<head>
+  <title>Exercice 3</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" title="design" href="fichier_css.css" />
+</head>
+
+<form>
+    <fieldset class ="Entree">
+      <legend><mark>Information sur un employé</mark> </legend>
+      <label for="Numero_de_securite_social">Numéro de sécurité sociale :</label>
+      <input type="text" pattern="[0-9]*" id="securite_social" name="numero_securite_social" display: block><br>
+
+      <label for="Nom_&_Prenom">Nom et Prenom :</label>
+      <input type="text" id="full_name" name="Nom_et_Prenom" display: block><br>
+
+      <label for="age">Age :</label>
+      <input type="text" pattern="[0-9]*" id="Age" name="Age" display: block><br>
+
+      <label for="Salaire">Salaire en DH :</label>
+      <input type="text" pattern="[0-9]*" id="Salaire" name="Salaire" display: block><br>
+
+      <label for="Grade">Grade :</label>
+      <input type="text" id="Grade" name="Grade" display: block><br><br>
+      
+      <button type="submit">Enregistrer</button>
+      <button type="reset">Nouveau</button>
+      <button type="reset">Effacer</button>
+    </fieldset>
+</form>
+
+    <form>
+        <fieldset class="affichage">
+          <legend><mark>Affichage de la base de donnée</mark> </legend>
+          <label for="Numero_de_securite_social">Numéro de sécurité sociale</label>
+          <label for="Nom_&_Prenom">Nom et Prenom</label>
+          <label for="Age">Age</label>
+          <label for="Salaire_en_DH">Salaire en DH</label>
+          <label for="Grade">Grade</label>
+          <br><br>
+        </fieldset>
+
+
+
+  </form>

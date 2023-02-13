@@ -1,0 +1,44 @@
+/*
+
+MIN - Exercice 3 - TP1
+12/02/2023
+*/
+
+body /*Propriétés pour le body (Toute la page affichée)*/ 
+{ 
+	width          	 	: 900px;            /* La largeur de l'élément en pixels */
+	margin          	: auto;             /* La marge de l'élément réglée automatiquement*/
+	padding         	: 1px;              /*écart de remplissage sur les cotés en pixels*/
+	margin-top      	: 0px;              /*La marge de bas de l'élement en pixels*/
+	margin-bottom   	: 10px;             /*La marge du haut de l'élement en pixels*/
+}
+
+mark
+{
+    font-size			: 13px;             /*La taille de la police en pixels*/
+    margin-bottom       : 0px;              /*La marge inférieur en pixels*/
+    height              : 15px;             /*La hauteur de l'élément en pixels*/
+    color               : darkcyan;         /*La couleur de la police est cyan foncé*/
+    font-weight: bold;
+    background-color: transparent; /* Utilisation du mark, pour modifier facilement un texte. Backgroud en transparant car sinon il est jaune*/
+}
+
+.affichage > label
+{
+    width: 200px ;
+    float:none;
+    box-sizing: border-box;
+    border-width: 1px; 
+    border-style: solid; 
+    border-color: grey;
+    background-color: greenyellow;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.Entree >label
+{
+    float: left;
+    width: 200px;    
+    
+}
